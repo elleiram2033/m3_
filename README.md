@@ -10,9 +10,10 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., m3.sol). Copy and paste the following code into the file:
 
+
+```Solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
-
 
 
 contract MyToken {
@@ -40,6 +41,7 @@ contract MyToken {
     }
 }
 
+```
 After the coding that needs to be compiled, the Solidity Compiler will appear in the middle left part. "Please click". Click to show automatic compilation. ”
 
 Once the code is compiled, you can deploy the contract by clicking the Deploy & Run Transactions tab in the left sidebar. Select the m3.sol contract from the dropdown menu and click the Deploy button.
